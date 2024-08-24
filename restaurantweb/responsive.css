@@ -1,0 +1,333 @@
+@media (max-width: 500px) 
+{   
+.container {
+    padding: 0 10px;
+}
+
+.flex-div {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navcontainer img {
+    width: 150px; 
+}
+.navcontainer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.middlenav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.middlenav h2 {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.buttoncontainer {
+    margin-top: 10px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.search {
+    flex-direction: column;
+
+    align-items: flex-start;
+    font-size: 12px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.buttonpartone,
+.buttonparttwo {
+    flex-direction: column;
+}
+
+.buttonline {
+    display: none;
+}
+
+.bannercontainer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.introcontainer {
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    font-size: 36px;
+}
+
+.details {
+    font-size: 20px;
+}
+.lastbutton {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.order, .orderprocess {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    max-width: 200px;
+    padding: 0 auto;
+    align-items: center;
+    height: 80px;
+}
+
+.orderprocess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+}
+.process{
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.bannerfood {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
+.single-food {
+    width: 100%;
+    margin: 10px 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.burger-image{
+    max-height: 300px;
+width: 90%;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0 auto;
+  
+}
+.burger-image img {
+    margin-top: 30px;
+   max-height: 150px;
+   width: 90%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+  
+   
+}
+
+.burger-info {
+    margin-top: 110px;
+    order: 2;
+    top: auto;
+    font-size: 14px;
+    position: absolute;
+   margin-left: 20px;
+  align-items: center;
+    padding: 10px;
+   
+}
+.location{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.line{
+    display: none;
+    padding-top: 40px;
+}
+.time, .loc1, .telephone{
+    width: 100%;
+    margin-bottom: 30px;
+}
+ .menucard, .hiddenfood {
+    grid-template-columns: 1fr;
+    padding: 10px;
+ }   
+    
+ .onefood{
+    padding: 8px;
+ }   
+ .foodinfo{
+    flex-direction: column;
+    align-items: center;
+ }   
+.rating{
+    justify-content: center;
+}   
+.foodinfo h6{
+    padding-top: 4px;
+}
+.servicecart{
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.services {
+    padding: 15px; 
+    
+}
+
+.icons {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+}
+.icons i{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.testimonial {
+    flex-direction: column;
+    gap: 10px;
+    margin: 2px 2px 2px auto;
+}
+.client {
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 20px 0px #0000001A; 
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.clientsay{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.clientimg {
+    margin: 0;
+    width: 50px; 
+    height: 50px; 
+}
+
+.clientdetails {
+    text-align: center; 
+}
+
+.foodimg {
+    width: 100%; 
+    text-align: center; 
+}
+
+.foodimg img {
+    width: 100%; 
+    height: auto; 
+}
+.subscribe {
+    flex-direction: column;
+        height: auto; 
+        padding: 20px;
+    }
+    
+.subscribeimg, .subscribeinfo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+.form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+.form input {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .form button {
+        flex-direction: column;
+       height:57px ;
+        gap: 10px;
+        align-items: center;
+        
+    }
+
+footer{
+    padding: 10px;
+    flex-direction: column;
+}
+.foodfooter { 
+       
+    flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+.foodfooter {
+    flex-direction: column; 
+}
+.footicon {
+        margin-top: 20px;
+    }
+.opening, .userlink, .contactus {
+margin-left: 55px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.opening h4, .userlink h4, .contactus h4{
+    text-align: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.userlink h4{
+    margin-left: 80px;
+   
+}
+
+
+.opening p, .userlink p, .contactus p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+        font-size: 12px; 
+        margin-left: 59px;
+}
+.userlink p{
+    align-items: center;
+    margin-left: 70px;
+}
+.contactus h4{
+    margin-left: 10px;
+}
+.contactus p{
+    align-items: center;
+    margin-left: 10px;
+}
+.emailbutton{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    margin-left: 59px;
+}
+}
