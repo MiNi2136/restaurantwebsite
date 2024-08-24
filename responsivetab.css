@@ -1,0 +1,10 @@
+@media (max-width: 900px)
+{
+.navcontainer img {
+        width: 120px; 
+    }
+
+.middlenav{
+gap: 15px;
+    }
+}
